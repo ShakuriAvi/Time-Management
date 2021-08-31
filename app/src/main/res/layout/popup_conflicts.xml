@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/cerclebackground"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/popup_IMG_add"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/warning"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/popup_TXT_conflicts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="15dp"
+        android:textSize="10dp"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/popup_IMG_add"
+        android:text=""/>
+<Button
+    android:id="@+id/popup_BTN_confirm"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/popup_TXT_conflicts"
+    android:text="confirm"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    tools:cardCornerRadius="30dp"
+    android:background="@color/white"
+    tools:cardElevation="20dp">
+    <LinearLayout
+        android:id="@+id/recycleTeams_LAY_cover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/recycleTeams_TXT_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="08:00 : "
+            android:textSize="10dp"
+            android:textColor="@color/black"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+        </TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/recycleTeams_TXT_lesson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+
+            android:gravity="top"
+
+            android:layout_weight="1">
+
+        </TextView>
+            <TextView
+                android:layout_marginTop="10dp"
+        android:id="@+id/recycleTeams_TXT_participants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Private Lesson With : "
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="casual"
+        android:gravity="center"
+
+        android:layout_weight="1"/>
+    </LinearLayout>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
